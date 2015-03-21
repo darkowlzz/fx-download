@@ -2,7 +2,7 @@
 
 var fs = require('fs'),
     mozdown = require('../'),
-    program = require('mozilla-get-url/bin/mozilla-get-url');
+    program = require('fx-get-url/bin/fx-get-url');
 
 function verbose() {
   var args = Array.prototype.slice.call(arguments);

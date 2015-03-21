@@ -1,12 +1,11 @@
 {
-  "name": "mozilla-download",
-  "version": "0.5.1",
-  "author": "James Lal [:lightsofapollo]",
-  "description": "Download firefox/b2g-desktop runtimes",
+  "name": "fx-download",
+  "version": "0.0.1",
+  "description": "Download firefox runtimes",
   "main": "lib/download.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mozilla-b2g/mozilla-download.git"
+    "url": "https://github.com/erikvold/fx-download.git"
   },
   "keywords": [
     "firefox os",
@@ -15,11 +14,11 @@
     "firefox"
   ],
   "bin": {
-    "mozilla-download": "./bin/mozilla-download"
+    "fx-download": "./bin/fx-download"
   },
   "dependencies" : {
     "debug": "~1.0.3",
-    "mozilla-get-url": "0.4.1",
+    "fx-get-url": "0.0.1",
     "dmg": "~0.0.3",
     "tmp": "~0.0.20",
     "ncp": "~0.4",

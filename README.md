@@ -2,7 +2,7 @@
 
 Helper utility for downloading various mozilla products in various
 release channels. Built on top of
-[mozilla-get-url](https://github.com/mozilla-b2g/mozilla-get-url).
+[fx-get-url](https://github.com/erikvold/fx-get-url).
 
 Handles operating system detection (win32, mac, linux-i686,
 linux-x86_64) and extraction of files (.tar.bz2, .dmg).
@@ -11,13 +11,12 @@ Extraction is platform dependent a .dmg may not unpack on linux.
 ## Usage
 
 ``` js
-var mozdownload = require('mozilla-download');
+var fxdownload = require('fx-download');
 
-// see https://github.com/mozilla-b2g/mozilla-get-url#usage for options
 var options = {};
 
 // download firefox
-mozdownload('save/me', options, functon(err, path) {
+fxdownload('save/me', options, functon(err, path) {
   // path is the same as save targe
 });
 ```
@@ -26,7 +25,7 @@ mozdownload('save/me', options, functon(err, path) {
 ## CLI Usage
 
 ```sh
-mozilla-download path/to/place/extracted/folder
+fx-download path/to/place/extracted/folder
 ```
 
 ## License
