@@ -1,6 +1,6 @@
 {
   "name": "fx-download",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Download firefox runtimes",
   "main": "lib/download.js",
   "repository": {
@@ -18,7 +18,7 @@
   },
   "dependencies" : {
     "debug": "~1.0.3",
-    "fx-get-url": "0.0.1",
+    "fx-get-url": "0.0.2",
     "dmg": "~0.0.3",
     "tmp": "~0.0.20",
     "ncp": "~0.4",
