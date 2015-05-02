@@ -1,4 +1,4 @@
-# Mozilla Download
+# Mozilla Download [![Build Status](https://travis-ci.org/erikvold/fx-download.svg?branch=master)](https://travis-ci.org/erikvold/fx-download)
 
 Helper utility for downloading various mozilla products in various
 release channels. Built on top of
