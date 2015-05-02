@@ -48,9 +48,9 @@ suite('download', function() {
     test('package expansion', function(done) {
       var options = {
         os: 'linux-x86_64',
-        product: 'b2g',
+        product: 'firefox',
         channel: 'prerelease',
-        branch: 'nightly'
+        branch: 'mozilla-central'
       };
 
       download(path, options, function(err, path) {
