@@ -24,6 +24,8 @@ var target = program.args[0];
 
 if (!target) {
   console.log('must pass a target directory to download product in');
+  // Print the help info and exit
+  program.outputHelp();
   process.exit(1);
 }
 
